@@ -1,0 +1,159 @@
+body {
+   background: #ecf0ec;
+   font-family: 'Montserrat', sans-serif;
+}
+
+header {
+   background: #c4c7c4;
+   padding: 15px 0;
+
+}
+
+.caixa {
+   position: relative;
+   width: 940px;
+   margin: 0 auto;
+
+}
+
+nav {
+   position: absolute;
+   top: 110px;
+   right: 0%;
+}
+
+nav li {
+   display: inline;
+   margin: 0 0 0 15px;
+}
+
+nav a {
+   text-transform: uppercase;
+   color: #000000;
+   font-weight: bold;
+   font-size: 22px;
+   text-decoration: none;
+}
+
+nav a:hover {
+   color: #c78c19;
+   text-decoration: underline;
+
+}
+
+.produtos {
+   width: 940px;
+   margin: 0 auto;
+}
+
+.produtos li {
+   display: inline-block;
+   text-align: center;
+   width: 30%;
+   vertical-align: top;
+   margin: 10px 1.5%;
+   padding: 30px 20px;
+   box-sizing: border-box;
+   border: 2px solid #000000;
+   border-radius: 15px;
+
+}
+
+.produtos li:hover {
+   border-color: #c78c19;
+}
+
+.produtos li:active {
+   border-color: #088c19;
+}
+
+.produtos li:hover h2 {
+   font-size: 34px;
+}
+
+.produtos h2 {
+   font-size: 30px;
+   font-weight: bold;
+}
+
+.produto-descricao {
+   font-size: 18px;
+}
+
+.produto-preco {
+   font-size: 20px;
+   font-weight: bold;
+   margin-top: 10px;
+}
+
+
+footer {
+   text-align: center;
+   background-color: #deedde;
+   padding: 41px 0 0;
+}
+
+.copyright {
+   color: #1d1c1c;
+   font-size: 15px;
+   margin: 15px 0 0;
+}
+
+.redes-sociais li {
+   display: inline-block;
+   padding: 06px 7px;
+}
+
+.redes-sociais a {
+   width: 32px;
+   height: 32px;
+   display: block;
+   text-indent: -99999px;
+}
+
+.github {
+   background-image: url(../img/github.png);
+}
+
+.linkedin {
+   background-image: url(../img/linkedin.png);
+}
+
+.twitter {
+   background-image: url(../img/twitter.png);
+}
+
+.instagram {
+   background-image: url(../img/instagram.png);
+
+}
+
+.facebook {
+   background-image: url(../img/facebook.png);
+}
+
+.youtube {
+   background-image: url(../img/youtube.png);
+}
+
+
+@media screen and (max-width:480px) {
+
+   .caixa,
+   .produtos ul {
+      width: auto;
+   }
+
+   h1 {
+      text-align: center;
+   }
+
+   nav {
+      position: static;
+   }
+
+   .lista-beneficios,
+   .imagen-beneficio {
+      width: 100%;
+   }
+}
